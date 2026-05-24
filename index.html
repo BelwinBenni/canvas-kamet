@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamet Canvas | The Community Design Sprint</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+    <link rel="apple-touch-icon" href="/logo.png">
+    <meta property="og:image" content="/logo.png">
+    <meta name="twitter:image" content="/logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <style>
@@ -13,7 +17,7 @@
         }
 
         .glass-panel {
-            background: rgba(255, 255, 255, 0.03);
+            background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.05);
         }
@@ -26,11 +30,11 @@
     <nav class="fixed w-full z-50 bg-white/10 backdrop-blur-xl border-b border-white/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
-                <div class="flex items-center gap-2">
-                    <img src="/logo.png" alt="Kamet Logo" class="h-8 w-auto rounded-xl bg-white/20 p-1">
+                <a href="/" aria-label="Kamet Canvas home" class="flex items-center gap-2">
+                    <img src="/logo.png" alt="Kamet Logo" class="h-8 w-auto rounded">
                     <span class="font-bold text-xl tracking-tight text-white">KAMET <span
                             class="text-blue-500">CANVAS</span></span>
-                </div>
+                </a>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
                         <a href="#about"
@@ -55,8 +59,8 @@
                 Design Our Digital Home.
             </h1>
             <p class="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-gray-400">
-                Kamet Canvas is a community design sprint focused on bond-building. We are seeking visionary UI/UX
-                designers to architect the future of the KAMET digital experience.
+                Kamet Canvas is a community design sprint. We are seeking creative
+                designers (as usual amateurs including) to architect the future of the Kamet Centre's digital experience.
             </p>
             <div class="mt-10 flex justify-center gap-x-6">
                 <a href="/register"
@@ -77,19 +81,19 @@
             <div class="mb-12">
                 <h2 class="text-3xl font-bold text-white">The Deliverables</h2>
                 <p class="mt-4 text-gray-400 max-w-3xl">Design a mobile-first UI/UX prototype encompassing three core
-                    community pillars. No coding required—submit interactive prototypes via Figma, Penpot, or your
-                    preferred design software.</p>
+                    community pillars. No coding required: submit interactive prototypes via Figma, Penpot, or your
+                    preferred design software (P.S. We would love to see the pen-paper drawings but please atlease use AI to convert them to digital images).</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="glass-panel p-8 rounded-2xl">
                     <h3 class="text-xl font-bold text-white mb-3">1. The Home Page</h3>
-                    <p class="text-gray-400 text-sm">The "Heart" of KAMET. Must feature a compelling hero statement, a
-                        dynamic community snapshot, and clear navigation prioritizing community bond-building.</p>
+                    <p class="text-gray-400 text-sm">The "Heart" of Kamet. Must feature a compelling hero statement, a
+                        dynamic community snapshot, and clear navigation.</p>
                 </div>
                 <div class="glass-panel p-8 rounded-2xl">
                     <h3 class="text-xl font-bold text-white mb-3">2. Events & Registrations</h3>
                     <p class="text-gray-400 text-sm">The "Action" hub. An organized feed of upcoming activities with
-                        intuitive, mobile-optimized registration flows and participation trackers.</p>
+                        intuitive, mobile-optimized registration flows and participation trackers. It should be scalable with the latest activities added on the top and the oldest at the bottom. Also, each activity must feature a "REGISTER" button, form not required.</p>
                 </div>
                 <div class="glass-panel p-8 rounded-2xl">
                     <h3 class="text-xl font-bold text-white mb-3">3. Galleries</h3>
@@ -147,7 +151,7 @@
                                 4</div>
                             <div>
                                 <strong class="text-white block mb-1">IP Rights & Deployment</strong>
-                                <span class="text-gray-400 text-sm">KAMET retains the rights to host, alter, and deploy
+                                <span class="text-gray-400 text-sm">Kamet Centre retains the rights to host, alter, and deploy
                                     the winning website. The winning team will be permanently credited on the live
                                     site.</span>
                             </div>
@@ -168,10 +172,10 @@
                                 registration.</li>
                             <li>Your submitted UI prototype must <strong>ONLY display your Team Name</strong>.</li>
                             <li>Do not include your actual names anywhere in the design file.</li>
-                            <li><strong>Credit Requirement:</strong> Design a space in the footer for creator
+                            <li><strong>Credit Requirement:</strong> Design a space in the anywhere on the website as per your preference for creator
                                 attribution. You must use placeholder text (e.g., <code
                                     class="bg-gray-800 px-1 py-0.5 rounded text-yellow-400">Designed by [Team Member Names]</code>).
-                                The real names will be injected into the final hosted website by our engineering team.
+                                The real names will be injected into the final hosted website on deployment.
                             </li>
                         </ul>
                     </div>
@@ -233,14 +237,14 @@
                         </div>
                         <div class="md:w-5/12 pl-12 md:pl-12 mt-2 md:mt-0 text-sm text-gray-400">
                             Mid-point checkpoint. Submission of low-fidelity wireframes and structural user flows for
-                            mobile screens.
+                            mobile screens. Preliminary community feedback is provided to guide the final design phase, during the Independence Day Celebration.
                         </div>
                     </div>
 
                     <!-- Item 4 -->
                     <div class="relative flex flex-col md:flex-row items-start md:justify-between group">
                         <div class="md:w-5/12 text-left md:text-right pl-12 md:pl-0 pr-0 md:pr-12">
-                            <h4 class="text-xl font-bold text-white">September 15</h4>
+                            <h4 class="text-xl font-bold text-white">September 25</h4>
                             <p class="text-sm text-yellow-500 font-semibold mt-1">Final Deadline</p>
                         </div>
                         <div
@@ -262,7 +266,7 @@
                             class="absolute left-0 md:left-1/2 top-1.5 w-8 h-8 rounded-full bg-green-500 border-4 border-green-400 transform md:-translate-x-1/2 flex items-center justify-center z-10 shadow-[0_0_20px_rgba(74,222,128,0.6)]">
                         </div>
                         <div class="md:w-5/12 pl-12 md:pl-12 mt-2 md:mt-0 text-sm text-gray-400">
-                            Winning team is announced and frontend integration begins.
+                            Community Voting will be held and the winning team is announced and rewarded.
                         </div>
                     </div>
 
